@@ -548,6 +548,10 @@ img {
   width: 30%;
 }
 
+.skills__SpringBoot{
+  width: 50%;
+}
+
 /* can hide the content in div */
 .skills__close .skills__list {
   height: 0;
