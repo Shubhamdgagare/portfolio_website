@@ -1218,16 +1218,31 @@ img {
     /* margin-left: 0.5rem; */
     margin-top: -55px;
     margin-left: -38px;
-    width: 250px;
+    width: 200px;
   }
 
 }
-@media screen and (max-width : 567px) {
+
+@media screen and (min-width : 450px) {
   .home__blob_back{
     /* margin-left: 0.5rem; */
-    margin-top: -69px;
-    margin-left: -10px;
-    width: 320px;
+    margin-top: -55px;
+    margin-left: -38px;
+    width: 200px;
+  }
+
+  .home__blob {
+    width: 160px;
+    margin-left: 0.5rem;
+
+  }
+}
+@media screen and (max-width : 568px) {
+  .home__blob_back{
+    /* margin-left: 0.5rem; */
+    margin-top: -55px;
+    margin-left: 10px;
+    width: 250px;
   }
 
   .home__blob{
@@ -1248,9 +1263,13 @@ img {
 
   .home__blob_back{
     /* margin-left: 0.5rem; */
-    margin-top: -69px;
-    margin-left: -55px;
-    width: 320px;
+    margin-top: -60px;
+    margin-left: -1.7rem;
+    width: 250px;
+  }
+
+  .home__blob{
+    margin-left: 1.3rem;
   }
 
   /* .home__img{
